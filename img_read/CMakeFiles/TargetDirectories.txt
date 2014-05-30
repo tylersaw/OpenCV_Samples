@@ -1,0 +1,1 @@
+/root/OpenCV_Samples/img_read/CMakeFiles/DisplayImage.dir
