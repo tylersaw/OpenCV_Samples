@@ -54,7 +54,6 @@ int main (int argc, char * const argv[]) {
 		setIdentity(KF.measurementNoiseCov, Scalar::all(1e-1));
 		setIdentity(KF.errorCovPost, Scalar::all(.1));
 
-		cout<<"1111111111111111111111111111"<<endl;
 		mousev.clear();
 		kalmanv.clear();
 		//randn(KF.statePost, Scalar::all(0), Scalar::all(0.1));
@@ -88,9 +87,6 @@ int main (int argc, char * const argv[]) {
 			img = Scalar::all(0);
 			drawCross( statePt, Scalar(255,255,255), 5 );
 			drawCross( measPt, Scalar(0,0,255), 5 );
-			//            drawCross( predictPt, Scalar(0,255,0), 3 );
-			//			line( img, statePt, measPt, Scalar(0,0,255), 3, CV_AA, 0 );
-			//			line( img, statePt, predictPt, Scalar(0,255,255), 3, CV_AA, 0 );
 
 			for (int i = 0; i < mousev.size()-1; i++) {
 				line(img, mousev[i], mousev[i+1], Scalar(255,255,0), 1);
@@ -99,9 +95,6 @@ int main (int argc, char * const argv[]) {
 				line(img, kalmanv[i], kalmanv[i+1], Scalar(0,255,0), 1);
 			}
 
-
-			//            randn( processNoise, Scalar(0), Scalar::all(sqrt(KF.processNoiseCov.at<float>(0, 0))));
-			//            state = KF.transitionMatrix*state + processNoise;
 
 			imshow( "mouse kalman", img );
 			code = (char)waitKey(100);
