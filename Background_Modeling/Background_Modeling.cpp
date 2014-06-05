@@ -7,13 +7,13 @@ using namespace cv;
 
 int main(int argc, char* argv[])
 {
-    int keyboard='s';
+	int keyboard='s';
     Mat frame;
     Mat MaskMog;
-    Mat MaskMog2;
-    BackgroundSubtractor Mog;
-    BackgroundSubtractor Mog2;
-    VideoCapture capture(argv[1]);
+
+	BackgroundSubtractorMOG Mog;
+	
+    VideoCapture capture("c:/billiard-trickshot.mp4");
     if(!capture.isOpened())
     {
 	cerr<<"error"<<endl;
@@ -32,16 +32,16 @@ int main(int argc, char* argv[])
 	rectangle(frame,Point(10,2),Point(100,2),Scalar(255,255,255),-1);
 
 	Mog.operator()(frame,MaskMog,0.1);
-	Mog2.apply()(frame,MaskMog2,0.1);
+	
 
 	stringstream ss;
 	ss << capture.get(CV_CAP_PROP_POS_FRAMES);
 	string FrameNumber= ss.str();
 	current=atoi(FrameNumber.c_str());
 	putText(frame,FrameNumber.c_str(),Point(15,15),FONT_HERSHEY_SIMPLEX,0.5,Scalar(0,0,0));
-//	imshow("frame",frame);
-//	imshow("Mog",MaskMog);
-	imshow("Mog2",MaskMog2);
+	imshow("frame",frame);
+	imshow("Mog",MaskMog);
+	
 	keyboard=waitKey(30);
 
     }
