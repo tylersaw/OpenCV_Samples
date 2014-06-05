@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/root/OpenCV_Samples/video_read/video_read_linux/video_read.cpp" "/root/OpenCV_Samples/video_read/video_read_linux/CMakeFiles/video_read.dir/video_read.o"
+  "/root/OpenCV_Samples/video_read/video_read.cpp" "/root/OpenCV_Samples/video_read/CMakeFiles/video_read.dir/video_read.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

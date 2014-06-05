@@ -1,1 +1,1 @@
-/root/OpenCV_Samples/video_read/video_read_linux/CMakeFiles/video_read.dir
+/root/OpenCV_Samples/video_read/CMakeFiles/video_read.dir

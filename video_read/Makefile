@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/OpenCV_Samples/video_read/video_read_linux
+CMAKE_SOURCE_DIR = /root/OpenCV_Samples/video_read
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/OpenCV_Samples/video_read/video_read_linux
+CMAKE_BINARY_DIR = /root/OpenCV_Samples/video_read
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,9 +66,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/video_read/video_read_linux/CMakeFiles /root/OpenCV_Samples/video_read/video_read_linux/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/video_read/CMakeFiles /root/OpenCV_Samples/video_read/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/video_read/video_read_linux/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/video_read/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

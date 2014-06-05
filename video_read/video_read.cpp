@@ -8,6 +8,7 @@ using namespace cv;
 
 int main(int argv, char **argc)
 {
+    	
 	VideoCapture capture(argc[1]);
 	if(!capture.isOpened())
 	{
@@ -28,9 +29,13 @@ int main(int argv, char **argc)
 	namedWindow("frame");
 	long currentFrame = frameToStart;
 	
+	Point start=Point(40,90);
+	Point end = Point(200,300);
 	while(!stop)
 	{
+	    cerr<<"show"<<endl;
 	    	capture.read(frame);
+		line(frame,start,end, 2,8);
 		imshow("frame",frame);
 		cout<<"currentFrame:"<<currentFrame<<endl;
 		int c = waitKey(delay);

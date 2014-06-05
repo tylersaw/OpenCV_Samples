@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/OpenCV_Samples/video_read/video_read_linux
+CMAKE_SOURCE_DIR = /root/OpenCV_Samples/video_read
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/OpenCV_Samples/video_read/video_read_linux
+CMAKE_BINARY_DIR = /root/OpenCV_Samples/video_read
 
 # Include any dependencies generated for this target.
 include CMakeFiles/video_read.dir/depend.make
@@ -48,17 +48,17 @@ include CMakeFiles/video_read.dir/flags.make
 
 CMakeFiles/video_read.dir/video_read.o: CMakeFiles/video_read.dir/flags.make
 CMakeFiles/video_read.dir/video_read.o: video_read.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/OpenCV_Samples/video_read/video_read_linux/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/OpenCV_Samples/video_read/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/video_read.dir/video_read.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/video_read.dir/video_read.o -c /root/OpenCV_Samples/video_read/video_read_linux/video_read.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/video_read.dir/video_read.o -c /root/OpenCV_Samples/video_read/video_read.cpp
 
 CMakeFiles/video_read.dir/video_read.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video_read.dir/video_read.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/OpenCV_Samples/video_read/video_read_linux/video_read.cpp > CMakeFiles/video_read.dir/video_read.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/OpenCV_Samples/video_read/video_read.cpp > CMakeFiles/video_read.dir/video_read.i
 
 CMakeFiles/video_read.dir/video_read.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video_read.dir/video_read.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/OpenCV_Samples/video_read/video_read_linux/video_read.cpp -o CMakeFiles/video_read.dir/video_read.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/OpenCV_Samples/video_read/video_read.cpp -o CMakeFiles/video_read.dir/video_read.s
 
 CMakeFiles/video_read.dir/video_read.o.requires:
 .PHONY : CMakeFiles/video_read.dir/video_read.o.requires
@@ -127,6 +127,6 @@ CMakeFiles/video_read.dir/clean:
 .PHONY : CMakeFiles/video_read.dir/clean
 
 CMakeFiles/video_read.dir/depend:
-	cd /root/OpenCV_Samples/video_read/video_read_linux && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/OpenCV_Samples/video_read/video_read_linux /root/OpenCV_Samples/video_read/video_read_linux /root/OpenCV_Samples/video_read/video_read_linux /root/OpenCV_Samples/video_read/video_read_linux /root/OpenCV_Samples/video_read/video_read_linux/CMakeFiles/video_read.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/OpenCV_Samples/video_read && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/OpenCV_Samples/video_read /root/OpenCV_Samples/video_read /root/OpenCV_Samples/video_read /root/OpenCV_Samples/video_read /root/OpenCV_Samples/video_read/CMakeFiles/video_read.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/video_read.dir/depend
 
