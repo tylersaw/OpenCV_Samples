@@ -9,7 +9,7 @@ using namespace cv;
 int main(int argv, char **argc)
 {
     	
-	VideoCapture capture(argc[1]);
+	VideoCapture capture("c:/camera_bgm.avi");
 	if(!capture.isOpened())
 	{
 		cout<<"fail to open!"<<endl;
@@ -35,7 +35,7 @@ int main(int argv, char **argc)
 	{
 	    cerr<<"show"<<endl;
 	    	capture.read(frame);
-		line(frame,start,end, 2,8);
+		line(frame,start,end, Scalar(255,255,255),2,8);
 		imshow("frame",frame);
 		cout<<"currentFrame:"<<currentFrame<<endl;
 		int c = waitKey(delay);
