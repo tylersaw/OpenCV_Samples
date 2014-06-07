@@ -11,9 +11,9 @@ int main(int argc, char* argv[])
     Mat frame;
     Mat MaskMog;
 
-	BackgroundSubtractorMOG Mog;
+    BackgroundSubtractorMOG Mog;
 	
-    VideoCapture capture("c:/billiard-trickshot.mp4");
+    VideoCapture capture(argv[1]);
     if(!capture.isOpened())
     {
 	cerr<<"error"<<endl;

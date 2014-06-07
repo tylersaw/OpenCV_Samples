@@ -10,6 +10,7 @@ int main(int argc, char** argv )
 {
     Mat image;
     image = imread( argv[1], 1 );
+    Mat img = imread(argv[1],0);
  //   for(int i=1;i<=200;i++)
 	//    image.row(i)=255;
    // cout<<image<<endl;
@@ -21,9 +22,10 @@ int main(int argc, char** argv )
    int lineType = 6;
    line(image,start,end,Scalar( 255, 0, 0 ),thickness,lineType );
    rectangle(image,  Point( 100, 100 ), Point(200,200 ), Scalar( 20, 255, 255), 10, 8 );
-    namedWindow("Display Image", CV_WINDOW_AUTOSIZE );
+//    namedWindow("Display Image", CV_WINDOW_AUTOSIZE );
     imshow("Display Image", image);
-
+    imshow("Display Image", img);
+    
     waitKey(0);
 
     return 0;
