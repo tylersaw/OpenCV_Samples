@@ -1,1 +1,1 @@
-/root/OpenCV_Samples/kalman_filter/CMakeFiles/kalman_filter.dir
+/root/OpenCV_Samples/projects/kalman_filter/CMakeFiles/kalman_filter.dir

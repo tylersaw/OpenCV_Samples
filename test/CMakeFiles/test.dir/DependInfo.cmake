@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/root/OpenCV_Samples/projects/kalman_filter/kalman_filter.cpp" "/root/OpenCV_Samples/projects/kalman_filter/CMakeFiles/kalman_filter.dir/kalman_filter.o"
+  "/root/OpenCV_Samples/test/main.cpp" "/root/OpenCV_Samples/test/CMakeFiles/test.dir/main.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

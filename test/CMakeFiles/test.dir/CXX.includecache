@@ -6,14 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/root/OpenCV_Samples/projects/kalman_filter/kalman_filter.cpp
+/root/OpenCV_Samples/test/main.cpp
 iostream
--
-vector
 -
 opencv2/highgui/highgui.hpp
 -
-opencv2/video/tracking.hpp
+opencv2/imgproc/imgproc.hpp
 -
 
 /usr/local/include/opencv2/core/core.hpp
@@ -117,10 +115,4 @@ opencv2/imgproc/types_c.h
 /usr/local/include/opencv2/imgproc/types_c.h
 opencv2/core/core_c.h
 /usr/local/include/opencv2/imgproc/opencv2/core/core_c.h
-
-/usr/local/include/opencv2/video/tracking.hpp
-opencv2/core/core.hpp
-/usr/local/include/opencv2/video/opencv2/core/core.hpp
-opencv2/imgproc/imgproc.hpp
-/usr/local/include/opencv2/video/opencv2/imgproc/imgproc.hpp
 

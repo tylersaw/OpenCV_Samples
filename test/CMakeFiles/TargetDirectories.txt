@@ -1,0 +1,1 @@
+/root/OpenCV_Samples/test/CMakeFiles/test.dir

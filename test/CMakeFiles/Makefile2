@@ -44,44 +44,44 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/OpenCV_Samples/projects/kalman_filter
+CMAKE_SOURCE_DIR = /root/OpenCV_Samples/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/OpenCV_Samples/projects/kalman_filter
+CMAKE_BINARY_DIR = /root/OpenCV_Samples/test
 
 #=============================================================================
-# Target rules for target CMakeFiles/kalman_filter.dir
+# Target rules for target CMakeFiles/test.dir
 
 # All Build rule for target.
-CMakeFiles/kalman_filter.dir/all:
-	$(MAKE) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/depend
-	$(MAKE) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/OpenCV_Samples/projects/kalman_filter/CMakeFiles  1
-	@echo "Built target kalman_filter"
-.PHONY : CMakeFiles/kalman_filter.dir/all
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/OpenCV_Samples/test/CMakeFiles  1
+	@echo "Built target test"
+.PHONY : CMakeFiles/test.dir/all
 
 # Include target in all.
-all: CMakeFiles/kalman_filter.dir/all
+all: CMakeFiles/test.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/kalman_filter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/projects/kalman_filter/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kalman_filter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/projects/kalman_filter/CMakeFiles 0
-.PHONY : CMakeFiles/kalman_filter.dir/rule
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/test/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/test/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
 
 # Convenience name for target.
-kalman_filter: CMakeFiles/kalman_filter.dir/rule
-.PHONY : kalman_filter
+test: CMakeFiles/test.dir/rule
+.PHONY : test
 
 # clean rule for target.
-CMakeFiles/kalman_filter.dir/clean:
-	$(MAKE) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/clean
-.PHONY : CMakeFiles/kalman_filter.dir/clean
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/kalman_filter.dir/clean
+clean: CMakeFiles/test.dir/clean
 .PHONY : clean
 
 #=============================================================================

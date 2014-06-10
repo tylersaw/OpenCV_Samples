@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/OpenCV_Samples/kalman_filter
+CMAKE_SOURCE_DIR = /root/OpenCV_Samples/projects/kalman_filter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/OpenCV_Samples/kalman_filter
+CMAKE_BINARY_DIR = /root/OpenCV_Samples/projects/kalman_filter
 
 # Include any dependencies generated for this target.
 include CMakeFiles/kalman_filter.dir/depend.make
@@ -48,17 +48,17 @@ include CMakeFiles/kalman_filter.dir/flags.make
 
 CMakeFiles/kalman_filter.dir/kalman_filter.o: CMakeFiles/kalman_filter.dir/flags.make
 CMakeFiles/kalman_filter.dir/kalman_filter.o: kalman_filter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/OpenCV_Samples/kalman_filter/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/OpenCV_Samples/projects/kalman_filter/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/kalman_filter.dir/kalman_filter.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kalman_filter.dir/kalman_filter.o -c /root/OpenCV_Samples/kalman_filter/kalman_filter.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/kalman_filter.dir/kalman_filter.o -c /root/OpenCV_Samples/projects/kalman_filter/kalman_filter.cpp
 
 CMakeFiles/kalman_filter.dir/kalman_filter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kalman_filter.dir/kalman_filter.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/OpenCV_Samples/kalman_filter/kalman_filter.cpp > CMakeFiles/kalman_filter.dir/kalman_filter.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/OpenCV_Samples/projects/kalman_filter/kalman_filter.cpp > CMakeFiles/kalman_filter.dir/kalman_filter.i
 
 CMakeFiles/kalman_filter.dir/kalman_filter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kalman_filter.dir/kalman_filter.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/OpenCV_Samples/kalman_filter/kalman_filter.cpp -o CMakeFiles/kalman_filter.dir/kalman_filter.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/OpenCV_Samples/projects/kalman_filter/kalman_filter.cpp -o CMakeFiles/kalman_filter.dir/kalman_filter.s
 
 CMakeFiles/kalman_filter.dir/kalman_filter.o.requires:
 .PHONY : CMakeFiles/kalman_filter.dir/kalman_filter.o.requires
@@ -127,6 +127,6 @@ CMakeFiles/kalman_filter.dir/clean:
 .PHONY : CMakeFiles/kalman_filter.dir/clean
 
 CMakeFiles/kalman_filter.dir/depend:
-	cd /root/OpenCV_Samples/kalman_filter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/OpenCV_Samples/kalman_filter /root/OpenCV_Samples/kalman_filter /root/OpenCV_Samples/kalman_filter /root/OpenCV_Samples/kalman_filter /root/OpenCV_Samples/kalman_filter/CMakeFiles/kalman_filter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/OpenCV_Samples/projects/kalman_filter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/OpenCV_Samples/projects/kalman_filter /root/OpenCV_Samples/projects/kalman_filter /root/OpenCV_Samples/projects/kalman_filter /root/OpenCV_Samples/projects/kalman_filter /root/OpenCV_Samples/projects/kalman_filter/CMakeFiles/kalman_filter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kalman_filter.dir/depend
 

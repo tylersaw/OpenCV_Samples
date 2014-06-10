@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/OpenCV_Samples/projects/kalman_filter
+CMAKE_SOURCE_DIR = /root/OpenCV_Samples/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/OpenCV_Samples/projects/kalman_filter
+CMAKE_BINARY_DIR = /root/OpenCV_Samples/test
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,9 +66,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/projects/kalman_filter/CMakeFiles /root/OpenCV_Samples/projects/kalman_filter/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/test/CMakeFiles /root/OpenCV_Samples/test/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/projects/kalman_filter/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/OpenCV_Samples/test/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -96,32 +96,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named kalman_filter
+# Target rules for targets named test
 
 # Build rule for target.
-kalman_filter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kalman_filter
-.PHONY : kalman_filter
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-kalman_filter/fast:
-	$(MAKE) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/build
-.PHONY : kalman_filter/fast
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 # target to build an object file
-kalman_filter.o:
-	$(MAKE) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/kalman_filter.o
-.PHONY : kalman_filter.o
+main.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.o
+.PHONY : main.o
 
 # target to preprocess a source file
-kalman_filter.i:
-	$(MAKE) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/kalman_filter.i
-.PHONY : kalman_filter.i
+main.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.i
+.PHONY : main.i
 
 # target to generate assembly for a file
-kalman_filter.s:
-	$(MAKE) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/kalman_filter.s
-.PHONY : kalman_filter.s
+main.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.s
+.PHONY : main.s
 
 # Help Target
 help:
@@ -130,11 +130,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... kalman_filter"
 	@echo "... rebuild_cache"
-	@echo "... kalman_filter.o"
-	@echo "... kalman_filter.i"
-	@echo "... kalman_filter.s"
+	@echo "... test"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
