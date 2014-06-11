@@ -1,4 +1,4 @@
 OpenCV_Samples
 ==============
 
-some tests of opencv library
+some tests of the opencv library
