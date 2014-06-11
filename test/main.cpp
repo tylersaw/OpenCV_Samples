@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
     cout<<state<<endl;
     Mat a= (Mat_<float>(1,4)<<1,2,4,5);
     cout<<a*state<<endl;
-   // setIdentity(state);
+  
     cout<<state*state<<endl;
     return 0;
 }
