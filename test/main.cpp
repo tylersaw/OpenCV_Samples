@@ -10,7 +10,6 @@ int main(int argc, char* argv[])
     state = (Mat_<float>(4, 4) << 1,0,4,0,   0,1,0,4,  0,2,0,0,  0,0,0,0);
     cout<<state<<endl;
     Mat a= (Mat_<float>(1,4)<<1,2,4,5);
-    cout<<a*state<<endl;
     cout<<state*state<<endl;
     return 0;
 }
